@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de confidentialité — Téranga Foot</title>
+  <meta name="description" content="Politique de confidentialité de l'application mobile Téranga Foot." />
+  <style>
+    :root {
+      --green: #00853F;
+      --green-dark: #0B5C2E;
+      --yellow: #FDEF42;
+      --bg: #FFF7E1;
+      --text: #1A1A1A;
+      --muted: #555;
+      --border: #E5DCC0;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--green);
+      color: #fff;
+      padding: 32px 24px;
+      border-bottom: 6px solid var(--yellow);
+    }
+    header .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    header h1 {
+      margin: 0 0 6px;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    header p {
+      margin: 0;
+      opacity: 0.9;
+      font-size: 14px;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+    }
+    h2 {
+      color: var(--green-dark);
+      margin-top: 36px;
+      margin-bottom: 12px;
+      font-size: 20px;
+      font-weight: 700;
+      border-left: 4px solid var(--green);
+      padding-left: 12px;
+    }
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+      font-size: 16px;
+      color: var(--green-dark);
+    }
+    p, li { font-size: 15px; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--green-dark); }
+    .badge {
+      display: inline-block;
+      background: var(--yellow);
+      color: var(--text);
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-right: 6px;
+    }
+    .summary {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 22px;
+      margin-bottom: 24px;
+    }
+    .summary p:last-child { margin-bottom: 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      font-size: 14px;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    th {
+      background: var(--green-dark);
+      color: #fff;
+      font-weight: 600;
+    }
+    tr:last-child td { border-bottom: none; }
+    footer {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+    code {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Politique de confidentialité</h1>
+    <p>Application mobile <strong>Téranga Foot</strong> &mdash; Dernière mise à jour : 3 juin 2026</p>
+  </div>
+</header>
+
+<main>
+
+  <div class="summary">
+    <p><span class="badge">RÉSUMÉ</span> Téranga Foot est une application mobile gratuite qui affiche
+    les matchs, joueurs et actualités de l'équipe nationale du Sénégal. Nous ne
+    collectons <strong>aucune donnée de compte utilisateur</strong>. La seule donnée
+    personnelle traitée est un <strong>identifiant technique de notification</strong>
+    (jeton FCM) utilisé pour vous envoyer les alertes de matchs si vous les avez
+    autorisées. Aucune donnée n'est revendue.</p>
+  </div>
+
+  <h2>1. Identité du responsable de traitement</h2>
+  <p>
+    L'application Téranga Foot est éditée par un développeur indépendant :
+  </p>
+  <ul>
+    <li><strong>Éditeur :</strong> Anis Kamal</li>
+    <li><strong>Contact :</strong> <a href="mailto:aniskamal52@gmail.com">aniskamal52@gmail.com</a></li>
+    <li><strong>Application :</strong> Téranga Foot (Android, identifiant <code>com.terranga.connect</code>)</li>
+  </ul>
+
+  <h2>2. Données que nous collectons</h2>
+  <p>L'application fonctionne sans création de compte. Aucune information
+  personnelle directe (nom, email, téléphone, adresse) n'est demandée à
+  l'utilisateur. Les seules données traitées sont&nbsp;:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Donnée</th>
+        <th>Finalité</th>
+        <th>Base légale</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jeton de notification (FCM token Firebase)</td>
+        <td>Vous envoyer des notifications push (début de match, but, résultat final) si vous avez accepté les notifications</td>
+        <td>Consentement (acceptation des notifications)</td>
+      </tr>
+      <tr>
+        <td>Adresse IP &amp; en-têtes HTTP (logs serveur)</td>
+        <td>Sécurité, prévention d'abus, débogage technique</td>
+        <td>Intérêt légitime</td>
+      </tr>
+      <tr>
+        <td>Type d'appareil &amp; version OS (envoyés par le système Android lors de l'installation)</td>
+        <td>Compatibilité technique et statistiques agrégées Play Store</td>
+        <td>Intérêt légitime</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Nous ne collectons pas&nbsp;:</strong> votre nom, votre email, votre
+  numéro de téléphone, votre position géographique, vos contacts, votre carnet
+  d'adresses, vos photos, votre micro, votre caméra, votre historique de
+  navigation, ni aucun identifiant publicitaire.</p>
+
+  <h2>3. Cookies et traceurs</h2>
+  <p>L'application <strong>n'utilise aucun cookie</strong> ni traceur
+  publicitaire. Aucune solution d'analytics tierce (Google Analytics, Firebase
+  Analytics, Amplitude, Segment, etc.) n'est intégrée. Aucune publicité n'est
+  affichée.</p>
+
+  <h2>4. Destinataires des données</h2>
+  <p>Vos données peuvent être traitées par les sous-traitants techniques
+  suivants, strictement nécessaires au fonctionnement du service&nbsp;:</p>
+  <ul>
+    <li><strong>Google Firebase Cloud Messaging</strong> &mdash; envoi des
+    notifications push. Données transmises : jeton FCM. Localisation des
+    serveurs : Union européenne et États-Unis. Politique :
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</li>
+    <li><strong>API-Football (api-sports.io)</strong> &mdash; fournisseur des
+    données de matchs et joueurs. L'application ne contacte jamais directement
+    API-Football&nbsp;; les requêtes passent par notre serveur. Aucune donnée
+    personnelle ne lui est transmise.</li>
+    <li><strong>NewsAPI.org</strong> &mdash; fournisseur d'articles
+    d'actualité. L'application ne contacte jamais directement NewsAPI&nbsp;;
+    les requêtes passent par notre serveur. Aucune donnée personnelle ne lui
+    est transmise.</li>
+  </ul>
+  <p><strong>Vos données ne sont jamais vendues, louées ou échangées avec
+  des tiers à des fins commerciales.</strong></p>
+
+  <h2>5. Durée de conservation</h2>
+  <ul>
+    <li><strong>Jeton FCM :</strong> conservé tant que l'application est
+    installée et que vous acceptez les notifications. Il est automatiquement
+    supprimé dès que Firebase nous signale qu'il est invalide (désinstallation,
+    refus des notifications, changement d'appareil).</li>
+    <li><strong>Logs serveur :</strong> conservés au maximum 30 jours.</li>
+  </ul>
+
+  <h2>6. Sécurité &amp; hébergement</h2>
+  <p>Les échanges entre l'application et notre serveur sont chiffrés via
+  HTTPS (TLS 1.2 ou supérieur). Le serveur backend qui stocke les jetons
+  FCM est hébergé par
+  <a href="https://www.n-services.net/" target="_blank" rel="noopener">N-Services
+  (n-services.net)</a>, dans un datacenter situé en
+  <strong>France (Union européenne)</strong>. L'accès au serveur est
+  protégé par pare-feu et contrôle d'accès. Aucun mot de passe utilisateur
+  n'est stocké puisque l'application ne nécessite pas de création de
+  compte.</p>
+
+  <h2>7. Vos droits (RGPD)</h2>
+  <p>Conformément au Règlement Général sur la Protection des Données (RGPD)
+  et à la loi Informatique et Libertés, vous disposez des droits suivants&nbsp;:</p>
+  <ul>
+    <li><strong>Accès</strong> aux données que nous détenons vous concernant&nbsp;;</li>
+    <li><strong>Rectification</strong> de toute donnée inexacte&nbsp;;</li>
+    <li><strong>Effacement</strong> de vos données (droit à l'oubli)&nbsp;;</li>
+    <li><strong>Opposition</strong> au traitement&nbsp;;</li>
+    <li><strong>Limitation</strong> du traitement&nbsp;;</li>
+    <li><strong>Portabilité</strong> des données.</li>
+  </ul>
+  <p>Pour exercer ces droits, écrivez à
+  <a href="mailto:aniskamal52@gmail.com">aniskamal52@gmail.com</a> en précisant
+  l'objet "Demande RGPD". Une réponse vous sera apportée sous 30 jours
+  maximum.</p>
+
+  <h3>7.1 Suppression de vos données &mdash; procédure</h3>
+  <p>Conformément à la politique Google Play et au RGPD, vous pouvez
+  demander à tout moment la suppression de l'ensemble des données vous
+  concernant. Deux options&nbsp;:</p>
+  <ul>
+    <li><strong>Suppression immédiate par désinstallation</strong> &mdash;
+    Désinstallez l'application depuis votre téléphone. Le jeton FCM
+    associé à votre appareil est automatiquement marqué comme invalide
+    par Firebase et supprimé de notre serveur lors du prochain envoi de
+    notification (sous 24h). Aucune action de votre part n'est
+    nécessaire.</li>
+    <li><strong>Suppression sur demande explicite</strong> &mdash;
+    Envoyez un email à
+    <a href="mailto:aniskamal52@gmail.com">aniskamal52@gmail.com</a> avec
+    pour objet&nbsp;: <code>Suppression de mes données &mdash; Téranga
+    Foot</code>. Précisez votre jeton FCM si vous le connaissez (sinon
+    indiquez votre modèle d'appareil et la date approximative
+    d'installation). Nous traiterons votre demande dans un délai maximum
+    de <strong>30 jours</strong> et vous confirmerons la suppression par
+    retour d'email. Données effacées&nbsp;: jeton FCM, journaux serveur
+    associés.</li>
+  </ul>
+  <p>Pour révoquer immédiatement le consentement aux notifications sans
+  désinstaller, vous pouvez désactiver les notifications de l'application
+  depuis les paramètres Android (<em>Paramètres &gt; Applications &gt;
+  Téranga Foot &gt; Notifications</em>).</p>
+
+  <h3>7.2 Réclamation auprès d'une autorité de contrôle</h3>
+  <p>Si vous estimez que vos droits ne sont pas respectés, vous pouvez
+  introduire une réclamation auprès de la
+  <a href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener">CNIL</a>
+  (autorité française de protection des données) ou de l'autorité
+  compétente de votre pays de résidence.</p>
+
+  <h3>7.3 Utilisateurs résidant en Californie (CCPA / CPRA)</h3>
+  <p>Si vous résidez en Californie, vous disposez en outre des droits
+  prévus par le <em>California Consumer Privacy Act</em> (CCPA) tel que
+  modifié par le <em>California Privacy Rights Act</em> (CPRA)&nbsp;: droit
+  de savoir quelles données sont collectées, droit de suppression, droit
+  de refuser la vente de vos données (<em>opt-out of sale</em>), droit à
+  la non-discrimination.
+  <strong>Nous ne vendons aucune donnée personnelle au sens du CCPA.</strong>
+  Pour exercer vos droits, utilisez l'email ci-dessus.</p>
+
+  <h2>8. Mineurs</h2>
+  <p>L'application est classée PEGI 3 mais n'est <strong>pas conçue ni
+  destinée aux enfants de moins de 13 ans</strong>. Nous ne collectons
+  pas sciemment de données concernant des enfants de moins de 13 ans
+  (conformément au <em>Children's Online Privacy Protection Act</em>,
+  COPPA, États-Unis) ou de moins de 15 ans (conformément au RGPD,
+  Union européenne).</p>
+  <p>Si vous êtes parent ou tuteur et constatez que votre enfant nous a
+  transmis des données (par exemple un jeton FCM via l'installation de
+  l'application), contactez-nous à
+  <a href="mailto:aniskamal52@gmail.com">aniskamal52@gmail.com</a>&nbsp;:
+  nous procéderons à la suppression dans les plus brefs délais.</p>
+
+  <h2>9. Audience internationale et transferts de données</h2>
+  <p>Téranga Foot s'adresse à la communauté sénégalaise dans le monde
+  entier, incluant la diaspora. L'application est donc accessible depuis
+  l'ensemble des pays où elle est distribuée par le Google Play
+  Store.</p>
+  <p>Vos données peuvent par conséquent être traitées dans plusieurs
+  zones géographiques&nbsp;:</p>
+  <ul>
+    <li><strong>Notre serveur backend</strong>&nbsp;: France (Union
+    européenne) &mdash; voir section 6.</li>
+    <li><strong>Google Firebase Cloud Messaging</strong>&nbsp;: serveurs
+    répartis en Union européenne et aux États-Unis. Ces transferts vers
+    les États-Unis sont encadrés par les
+    <em>clauses contractuelles types</em> de la Commission européenne
+    ainsi que par l'adhésion de Google au
+    <em>EU-U.S. Data Privacy Framework</em>.</li>
+  </ul>
+  <p>Quelle que soit votre zone géographique de connexion, vous
+  bénéficiez du niveau de protection le plus élevé applicable parmi le
+  RGPD européen, le CCPA californien et les lois locales équivalentes.</p>
+
+  <h2>10. Modifications de cette politique</h2>
+  <p>Cette politique de confidentialité peut être mise à jour pour refléter
+  des évolutions techniques ou légales. La date en haut de cette page indique
+  la dernière modification. Les changements substantiels seront annoncés via
+  une notification dans l'application.</p>
+
+  <h2>11. Contact</h2>
+  <p>Pour toute question relative à cette politique ou au traitement de vos
+  données&nbsp;:</p>
+  <ul>
+    <li>Email : <a href="mailto:aniskamal52@gmail.com">aniskamal52@gmail.com</a></li>
+  </ul>
+
+</main>
+
+<footer>
+  © 2026 Téranga Foot &mdash; Application non officielle, non affiliée à la
+  Fédération Sénégalaise de Football.
+</footer>
+
+</body>
+</html>
